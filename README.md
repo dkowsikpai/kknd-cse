@@ -1,7 +1,7 @@
 # kknd cse
-## This is resp provides you the answer to the GECT CSE C Programming Lab Questions. 
+## This is repository provides you the answer to the GECT CSE C Programming Lab Questions. 
 ### Questions
-
+*My opinion is to try yourselves before looking into the answer*
 #### Cycle I- Decision making, branching and looping
 1. Display a message on the screen
 2. Addition of two integer numbers , taking input from the keyboard
