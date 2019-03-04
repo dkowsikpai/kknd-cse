@@ -1,4 +1,5 @@
-# kknd cse
+# C Programming Questions Solved
+#### kknd cse
 ## This is repository provides you the answer to the GECT CSE C Programming Lab Questions. 
 ### Questions
 *My opinion is to try yourselves before looking into the answer*
