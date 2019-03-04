@@ -1,5 +1,5 @@
 # kknd cse
-## This is resp provides you the answer to the CSE C Programming Lab Questions. 
+## This is resp provides you the answer to the GECT CSE C Programming Lab Questions. 
 ### Questions
 
 #### Cycle I- Decision making, branching and looping
