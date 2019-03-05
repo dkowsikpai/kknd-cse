@@ -1,20 +1,20 @@
 #include<stdio.h>
 #include<math.h>
+int fact(int a)
+{int m,i;
+for(i=1;i<=a;i++)
+	m=m*1;
+return m;
+}
 
-void main(){
- long int i, k=1, j,p, fa=1,m;
- double sine=0, x,t;
- printf("Enter x:");
- scanf("%ld", &m);
- x=m*3.14159/180;
-    t=x;
-    sine=x;
-     
-    /* Loop to calculate the value of Sine */
-    for(i=1;i<=12;i++)
-    {
-        t=(t*(-1)*x*x)/(2*i*(2*i+1));
-        sine=sine+t;
-    }
- printf("%lf", sine);
+void main()
+{int n,x,i,a=0;
+printf("Enter the limiting no of taylor series ");
+scanf("%d",&n);
+printf("Enter the value of x");
+scanf("%d",&x);
+
+for(i=1;i<=n;i++)
+	a=a+((pow(x,(2*i-1))*pow(-1,i+1))/fact(2*i-1))
+printf("the aprrox of sinx is %d",a);
 }
