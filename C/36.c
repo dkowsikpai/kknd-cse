@@ -38,13 +38,13 @@ void main(){
 					flag = 0;
 					for (int i = 0; i < j; ++i){
 						if (acc == l[i].acc){
-							printf("\nEnter the name of book:");
+							printf("\nName of book:");
 							printf("%s", l[i].name);
-							printf("\nEnter the author of book:");
+							printf("\nAuthor of book:");
 							printf("%s", l[i].auth);
-							printf("\nEnter the book accession number:");
+							printf("\nAccession number:");
 							printf("%d", l[i].acc);
-							printf("\nEnter the book count:");
+							printf("\nBook count:");
 							printf("%d", l[i].count);
 							flag = 1;
 						}
@@ -58,7 +58,7 @@ void main(){
 					flag = 0;
 					for (int i = 0; i < j; ++i){
 						if (acc == l[i].acc){
-							printf("Enter the book count:");
+							printf("Book count:");
 							printf("%d", l[i].count);
 							flag = 1;
 						}
