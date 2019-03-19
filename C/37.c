@@ -32,11 +32,11 @@ void main(){
 
 					printf("Details:");
 					for (int i = 0; i < j; ++i){
-							printf("\n\nEnter the name of book:");
+							printf("\n\nName:");
 							printf("%s", l[i].name);
-							printf("\nEnter the clor of book:");
+							printf("\nClass :");
 							printf("%s", l[i].cl);
-							printf("\nEnter the book admission number:");
+							printf("\nAdmission number:");
 							printf("%d", l[i].adm);
 						
 					}
