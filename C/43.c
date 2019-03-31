@@ -18,7 +18,7 @@ void bubble(int arr[], int n){
 
 void insert(int arr[], int n){
   int i, key, j;
-  for(i=1; i < n; i++){
+  for(i=0; i < n; i++){
     //printf("%d", arr[i]);
     key = arr[i];
     j = i-1;
