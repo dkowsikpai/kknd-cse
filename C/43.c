@@ -12,7 +12,7 @@ void bubble(int arr[], int n){
       }
     }  
   for(i=0; i < n; i++){
-    printf("%d", arr[i]);
+    printf("%d,", arr[i]);
   }
 }
 
@@ -29,7 +29,7 @@ void insert(int arr[], int n){
     arr[j+1] = key;
   }
   for(i=0; i < n; i++){
-    printf("%d", arr[i]);
+    printf("%d,", arr[i]);
   }
 
 }
