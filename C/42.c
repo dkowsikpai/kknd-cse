@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+//Replace EOF by -1
 
 void enc(){
   FILE *fp;
