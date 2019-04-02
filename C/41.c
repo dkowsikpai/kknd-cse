@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+//Replace EOF by -1
+
 void main(){
   char c;
   int count=0;
