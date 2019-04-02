@@ -29,7 +29,7 @@ void enc(){
   fclose(fpr);
   fpr = fopen("enc.txt", "r");
   printf("Encrypted key:");
-  while((c = fgetc(fp)) != EOF)printf("%c", c);
+  while((c = fgetc(fpr)) != EOF)printf("%c", c);
   fclose(fpr);
 }
 
