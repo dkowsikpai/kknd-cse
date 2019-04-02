@@ -31,3 +31,11 @@ void permute(char *a, int l, int r)
        } 
    } 
 } 
+
+int main() 
+{ 
+    char str[] = "ABC"; 
+    int n = strlen(str); 
+    permute(str, 0, n-1); 
+    return 0; 
+} 
