@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void rep(int n){
-	int sum[100], i, k;
+	int sum[100], i=0, k;
 	while(n > 0){
 				sum[i] = n%2;
 				n = n/2;
