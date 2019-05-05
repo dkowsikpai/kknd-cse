@@ -1,16 +1,15 @@
 #include <stdio.h>
-int s = 0;
-int sum(int n){
-	if (n<=0){
-		return s;
-	}else{
-		s = s + (n%10);
-		sum(n/10);
+int sumd(int n, int sum){
+	
+	if(n<=0)return sum;
+	else {
+		sum += n%10;
+		sumd(n/10, sum);
 	}
 }
 void main(){
 	int n;
 	printf("Enter the number:");
 	scanf("%d", &n);
-	printf("%d", sum(n));
+	printf("%d", sumd(n, 0));
 }
